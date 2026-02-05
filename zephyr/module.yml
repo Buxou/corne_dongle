@@ -1,0 +1,4 @@
+name: corne_dongle
+build:
+  settings:
+    board_root: .
