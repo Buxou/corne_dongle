@@ -63,10 +63,10 @@
             //             | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &mt LEFT_BRACKET Q  &kp W       &kp E       &kp R                 &kp T          &kp Y      &kp U                      &kp I      &kp O    &mt RIGHT_BRACKET P
-  &kp A               &kp S       &kp D       &kp F                 &kp G          &kp H      &kp J                      &kp K      &kp L    &mt SQT SEMICOLON
-  &mt LCTRL Z         &mt LALT X  &mt C LWIN  &kp V                 &kp B          &kp N      &kp M                      &kp COMMA  &kp DOT  &mt BSLH SLASH
-                                  &lt 2 ESC   &mt LEFT_SHIFT ENTER  &lt 1 SPACE    &lt 1 TAB  &mt RIGHT_SHIFT BACKSPACE  &lt 2 DEL
+  &mt LEFT_BRACKET Q  &kp W       &kp E           &kp R                 &kp T          &kp Y      &kp U                      &kp I      &kp O    &mt RIGHT_BRACKET P
+  &kp A               &kp S       &kp D           &kp F                 &kp G          &kp H      &kp J                      &kp K      &kp L    &mt SQT SEMICOLON
+  &mt LCTRL Z         &mt LALT X  &mt LEFT_WIN C  &kp V                 &kp B          &kp N      &kp M                      &kp COMMA  &kp DOT  &mt BSLH SLASH
+                                  &lt 2 ESC       &mt LEFT_SHIFT ENTER  &lt 1 SPACE    &lt 1 TAB  &mt RIGHT_SHIFT BACKSPACE  &lt 2 DEL
             >;
         };
 
@@ -107,10 +107,10 @@
         adjust_layer {
             label = "ADJ";
             bindings = <
-  &sys_reset        &bootloader           &bt BT_NXT    &bt BT_PRV    &bt BT_CLR        &trans      &trans          &trans      &bootloader  &sys_reset
-  &bt BT_SEL 0      &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR_ALL    &kp K_STOP  &kp C_PREVIOUS  &kp C_PLAY  &kp C_NEXT   &trans
-  &kp K_CALCULATOR  &kp C_AL_MY_COMPUTER  &trans        &trans        &trans            &trans      &trans          &trans      &trans       &trans
-                                          &trans        &trans        &trans            &trans      &trans          &trans
+  &sys_reset    &bootloader           &bt BT_NXT    &bt BT_PRV    &bt BT_CLR        &trans      &trans          &trans      &bootloader  &sys_reset
+  &bt BT_SEL 0  &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR_ALL    &kp K_STOP  &kp C_PREVIOUS  &kp C_PLAY  &kp C_NEXT   &trans
+  &kp K_CALC    &kp C_AL_MY_COMPUTER  &trans        &trans        &trans            &trans      &trans          &trans      &trans       &trans
+                                      &trans        &trans        &trans            &trans      &trans          &trans
             >;
         };
     };
